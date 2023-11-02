@@ -5,7 +5,7 @@ import argparse
 opnsense = "10.0.1.1" #IP to the OPNSense on the network
 key = "" #Key made in the usersection of OPNSense
 secret = #Secretkey made in the usersection of OPNSense
-alias = "AllovedIPs" #The alias you want to add the IP to | Comment out this if you want to parse the alias as an argument
+alias = "" #The alias you want to add the IP to | Comment out this if you want to parse the alias as an argument
 ##########################################################
 argParser = argparse.ArgumentParser()
 argParser.add_argument("-ip","--ip", help="IP to add to OPNSense")
