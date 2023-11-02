@@ -6,4 +6,4 @@ Create an API-user by adding an account in the usersection on OPNSense and creat
 Change the variable "opnsense" to match your opnsense IP.
 
 ## Running the script
-```python app.py -ip <Your IP to add>
+```python app.py -ip <Your IP to add>```
