@@ -14,5 +14,7 @@ In the configsection:
 alias = args.alias #uncomment out this if you want alias to hardcode the alias
 ```
 Run the script with the alias-argument:
-```python app.py -ip <Your IP to add> -a MyAlias
-python app.py -ip <Your IP to add> --alias MyAlias```
+```
+python app.py -ip <Your IP to add> -a MyAlias
+python app.py -ip <Your IP to add> --alias MyAlias
+```
