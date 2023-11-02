@@ -7,7 +7,7 @@ argParser.add_argument("-a","--alias", help="Alias you want to add the IP to")
 args = argParser.parse_args()
 ip = args.ip
 #####################CONFIGMODE###########################
-opnsense = "10.0.1.1" #IP to the OPNSense on the network
+opnsense = "" #IP to the OPNSense on the network
 key = "" #Key made in the usersection of OPNSense
 secret = #Secretkey made in the usersection of OPNSense
 alias = "" #The alias you want to add the IP to | Comment out this if you want to parse the alias as an argument
