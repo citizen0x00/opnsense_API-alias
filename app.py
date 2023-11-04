@@ -9,7 +9,7 @@ ip = args.ip
 #####################CONFIGMODE###########################
 opnsense = "" #IP to the OPNSense on the network
 key = "" #Key made in the usersection of OPNSense
-secret = #Secretkey made in the usersection of OPNSense
+secret = "" #Secretkey made in the usersection of OPNSense
 alias = "" #The alias you want to add the IP to | Comment out this if you want to parse the alias as an argument
 #alias = args.alias #uncomment out this if you want alias to hardcode the alias
 ##########################################################
